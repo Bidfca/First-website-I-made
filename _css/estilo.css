@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap');
+@font-face {
+	font-family: assinatura;
+	src: url('Gilani Sign.ttf');
+}
+	a {
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	p {
+	text-align: justify;
+	font-family: 'Roboto', sans-serif;
+}
+	body {
+		background-image: url("SUPERTUCK.jpg");
+		background-position: 30px 0px;
+		color: #000000;
+	}
+	hgroup#titulos h2 {
+		font-family:'Roboto';
+	}
+	h2#conteudo {
+		border-top:1px #96E955 dashed;
+		padding-top: 15px;
+	}
+	div#interface {
+		background-color: #ffffff;
+		margin: 10px 10px 10px 10px;
+		padding: 10px;
+	}
+	header#cabecalho {
+		background-image: url("zwift.jpg");
+		background-repeat: no-repeat;
+		background-size: 700px;
+	}
+	header#cabecalho h1 {
+	font-family: 'Lobster', cursive;
+	font-size:  30pt;
+	color: #96E955;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	}
+
+	figure.perfil {
+		border: 7px solid white;
+		display: inline-block;
+		box-shadow: 1px 1px 4px black;
+	}
+	figure.rolo {
+		border: 7px solid white;
+		display: inline-block;
+		box-shadow: 1px 1px 4px black;
+		position: relative;
+	}
+	figure.rolo figcaption {
+		opacity: 0;
+		position: absolute;
+		top:0px;
+		background-color: rgba(0,0,0,0.4);
+		color: white;
+		height: 100%;
+		width: 100%;
+		padding: 95px;
+		box-sizing: border-box;
+		transition: opacity 1s;
+	}
+	figure.rolo:hover figcaption {
+		opacity: 1;
+	}
+	nav#menu {
+		display: block;
+	}
+	nav#menu ul {
+		list-style: none;
+		text-transform: uppercase;
+		position: absolute;
+		top: -20px;
+		left: 400px;
+	}
+
+	nav#menu li {
+		display: inline-block;
+		background-color: #dddddd;
+		padding: 10px;
+		margin: 2px;
+		transition: background-color 1s;
+	}
+
+	nav#menu li:hover {
+		background-color:#96E955;
+	}
+	nav#menu h1 {
+		display:none;
+	}
+	nav#menu a {
+		color: #000000;
+		text-decoration: none;
+	}
+	nav#menu a:hover {
+		color: #ffffff
+	}
+	div#interface {
+		width: 1460px;
+	}
+
+	section#corpo {
+		display: block;
+		width: 650px;
+		float:left;
+		padding-right: 60px;
+		padding-left: 40px;
+		border-right: 1px dashed #96E955;
+	}
+	footer#rodape {
+		border-top: 1px dashed #96E955;
+		padding-right: 25px; 
+		clear: both;
+	}
+	aside#lado {
+		display: block;
+		width: 650px;
+		float: right;
+		padding-right:50px;
+	}
+div#radio {
+	border: 7px solid white;
+	display: inline-block;
+	box-shadow: 1px 1px 4px black;
+	position: relative;
+
+}

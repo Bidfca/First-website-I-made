@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap');
+body {
+	background-image: url("SUPERTUCK.jpg");
+	overflow: hidden;
+}
+section#img {
+	margin: 30px;
+	margin-top: 40px;
+}
+nav#menu {
+	display: block;
+}
+nav#menu a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+nav#menu ul {
+	list-style: none;
+	position: absolute;
+	top: -20px;
+	left: 400px;
+}
+nav#menu li {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s;
+}
+nav#menu li:hover {
+background-color:#96E955;
+}
+nav#menu a:hover {
+	color: white;
+}
+nav#menu h1 {
+	display: none;
+}
+h1#fonte {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 50px;
+	margin-bottom: 10px;
+	color: #96E955;
+	text-shadow: 1px 1px 4px black;
+	font-family: 'Lobster', sans-serif;
+}
+section#img img {
+	margin-top: -20px;
+	margin-left: 300px;
+}
+h1#inf {
+	margin-top: -20px;
+	font-size: 40px;
+	text-align: center;
+	color: #D0AC10;
+	text-shadow: 1px 1px 4px black;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap');
+body {
+		font-family:'Roboto', sans-serif;
+		font-size:14px;
+		text-align: justify;
+		overflow: hidden;
+	}
+article {
+	margin-bottom: 500px;
+}
+table#tabela {
+	text-align: center;
+	vertical-align: top;
+	border: 1px solid black;
+	border-spacing: 0px;
+	background: #dddddd;
+}
+table#tabela td {
+	padding: 8px;
+	border: 1px solid black;
+}
